@@ -51,9 +51,7 @@ Four strategies are implemented and compared, all with a common interface `(x, K
 
 ## Key Findings
 
-**KeOps delivers on memory efficiency.** At 500k points and 50 dimensions, KeOps ran the
-full K sweep under 200 MB peak VRAM. The equivalent PyTorch approach would require over
-1 GB per iteration.
+**KeOps delivers on memory efficiency.** At 500k points and 50 dimensions, KeOps added only ~0.44 GB of VRAM per K value swept, and that cost was flat across all K values tested. The equivalent PyTorch approach would allocate a fresh 1.2 GB intermediate tensor every iteration. The constant delta confirms that KeOps memory cost scales with data size, not with the size of the distance matrix.
 
 **Aggressive tensorization does not substitute for kernel fusion.** `kmeans_totally_tensor`
 batches all restarts simultaneously but is slower and more memory-intensive than KeOps at
