@@ -5,6 +5,8 @@ with comparisons against scikit-learn and pure PyTorch implementations.
 
 Designed to run on Kaggle with GPU acceleration enabled.
 
+See the accompaning video for a simple explanation: https://youtu.be/qznHmkhGcoo
+
 ## What This Is
 
 K-means clustering requires computing the distance from every point to every centroid at
