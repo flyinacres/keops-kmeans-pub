@@ -63,7 +63,7 @@ A companion video explaining the k-means and KeOps concepts is available here: h
 
 This diagram contrasts how a standard GPU library handles a multi-step calculation versus how KeOps optimizes it, with color coding to show where data lives and when it moves between slow and fast memory: [Standard Tensor vs KeOps](https://rfischer.com/wp-content/uploads/2026/03/KeOps-V2-scaled.png)
 
-The diagram and related discussion are covered in more depth on my blog at [rfischer.com](https://www.rfischer.com).
+The diagram and related discussion will be covered in more depth in the near future on my blog at [rfischer.com](https://www.rfischer.com).
 
 ## Running the Notebook
 
