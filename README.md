@@ -45,7 +45,7 @@ Four strategies are implemented and compared, all with a common interface (x, K,
 | Mall Customers | 200 | 3 | ~5 | Purpose-built clustering demo |
 | Credit Card Fraud | 284,807 | 29 | unknown | PCA-anonymized features; large N |
 | MNIST (sklearn) | 1,797 | 64 | 10 | High D relative to N |
-| SUSY (subset) | 500,000 | 50 | -- | Main scale benchmark |
+| SUSY (subset) | 5,000,000 | 18 | -- | Main scale benchmark |
 
 A synthetic dataset generator is also included for controlled testing.
 
